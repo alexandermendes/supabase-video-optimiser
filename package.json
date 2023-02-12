@@ -1,0 +1,29 @@
+{
+  "name": "supabase-video-optimiser",
+  "version": "1.0.0",
+  "description": "A script for optimising videos kept in Supabase storage.",
+  "main": "index.js",
+  "author": "Alex Mendes",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@supabase/supabase-js": "^2.7.1",
+    "dotenv": "^16.0.3",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs-extra": "^11.1.0",
+    "image-downloader": "^4.3.0",
+    "listr": "^0.14.3",
+    "mime-types": "^2.1.35",
+    "rxjs": "^7.8.0",
+    "video-extensions": "^1.2.0",
+    "yargs": "^17.6.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
