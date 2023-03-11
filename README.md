@@ -3,6 +3,7 @@
 A script for optimising videos kept in Supabase storage.
 
 It compresses `.mp4` files and creates and uploads `.m3u8` variants of each video.
+It was written to compress videos to be used in mobile apps.
 
 ## Usage
 
