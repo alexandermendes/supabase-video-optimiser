@@ -1,7 +1,8 @@
 # Supabase Video Optimiser
 
-A script for optimising videos kept in Supabase storage. It compresses `.mp4`
-files and creates and uploads an HLS variant of the same video.
+A script for optimising videos kept in Supabase storage.
+
+It compresses `.mp4` files and creates and uploads `.m3u8` variants of each video.
 
 ## Usage
 
