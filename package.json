@@ -6,7 +6,8 @@
   "author": "Alex Mendes",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "start": "node ./bin/svo.js"
   },
   "bin": {
     "svo": "./bin/svo.js"
