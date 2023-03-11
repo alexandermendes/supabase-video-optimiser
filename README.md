@@ -4,6 +4,13 @@ A script for optimising videos kept in Supabase storage.
 
 ## Usage
 
+Set your Supabase environment variables:
+
+```text
+echo "SUPABASE_PROJECT_URL=<YOUR_PROJECT_URL>">>.env
+echo "SUPABASE_SERVICE_ROLE_KEY=<YOUR_SERVICE_ROLE_KEY>">>.env
+```
+
 Run the script with:
 
 ```text
