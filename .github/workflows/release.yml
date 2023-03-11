@@ -23,8 +23,6 @@ jobs:
           persist-credentials: false
       - name: Install
         run: yarn install --frozen-lockfile --non-interactive
-      - name: Build
-        run: yarn build
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_GITHUB_TOKEN }}
