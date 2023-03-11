@@ -36,7 +36,6 @@
     "listr": "^0.14.3",
     "mime-types": "^2.1.35",
     "rxjs": "^7.8.0",
-    "semantic-release": "^20.1.1",
     "video-extensions": "^1.2.0",
     "yargs": "^17.6.2"
   },
@@ -51,6 +50,7 @@
     "eslint": "^8.34.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.27.5",
-    "husky": "^4.2.5"
+    "husky": "^4.2.5",
+    "semantic-release": "^20.1.1"
   }
 }
