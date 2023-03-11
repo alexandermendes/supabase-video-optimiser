@@ -4,17 +4,10 @@ A script for optimising videos kept in Supabase storage.
 
 ## Usage
 
-Set your Supabase environment variables:
-
-```text
-echo "SUPABASE_PROJECT_URL=<YOUR_PROJECT_URL>">>.env
-echo "SUPABASE_SERVICE_ROLE_KEY=<YOUR_SERVICE_ROLE_KEY>">>.env
-```
-
 Run the script with:
 
 ```text
-npx supabase-video-optimiser --bucket videos --folder public
+npx supabase-video-optimiser --url <PROJECT-URL> --key <SERVICE-ROLE-KEY> --bucket videos --folder public
 ```
 
 This will compress video files and re-upload them to Supabase, along with HLS
@@ -26,6 +19,8 @@ The following command line arguments are available.
 
 | Argument   | Description                                               |
 |------------|-----------------------------------------------------------|
+| `--url`    | A Supabase project URL.                                   |
+| `--key`    | A Supabase service role key.                              |
 | `--bucket` | The Supabase bucket where your videos are kept.           |
 | `--folder` | A folder within the bucket where your videos are kept.    |
 | `--dry`    | Run without actually uploading anything to Supabase.      |
