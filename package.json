@@ -1,6 +1,6 @@
 {
   "name": "supabase-video-optimiser",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A script for optimising videos kept in Supabase storage.",
   "main": "index.js",
   "author": "Alex Mendes",
